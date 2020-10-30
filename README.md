@@ -1,5 +1,5 @@
-# 2s-sgcn
-Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition in CVPR19
+# sgcn
+shallow Graph Convolutional Networks for Skeleton-Based Action Recognition
 
 # Note
 
@@ -54,15 +54,3 @@ Then combine the generated scores with:
 
     `python ensemble.py` --datasets ntu/xview
      
-# Citation
-Please cite the following paper if you use this repository in your reseach.
-
-    @inproceedings{2ssgcn2019cvpr,  
-      title     = {Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition},  
-      author    = {Lei Shi and Yifan Zhang and Jian Cheng and Hanqing Lu},  
-      booktitle = {CVPR},  
-      year      = {2019},  
-    }
-    
-# Contact
-For any questions, feel free to contact: `lei.shi@nlpr.ia.ac.cn`
