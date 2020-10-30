@@ -1,0 +1,28 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: ./data/ntu/xsub/val_data_joint.npy
+  label_path: ./data/ntu/xsub/val_label.pkl
+  argument : True
+  debug: False
+
+# model
+model: model.sgcn.Model
+model_args:
+  in_channels : 6
+  num_class: 60
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+# test
+phase: test
+device: [0,1,2,3]
+test_batch_size: 256
+weights: ./runs/ntu_cs_sgcn_joint-53-2993.pt
+
+work_dir: ./work_dir/ntu/xsub/sgcn_test_joint
+model_saved_name: ./runs/ntu_cs_sgcn_test_joint
+save_score: True
