@@ -1,5 +1,5 @@
 # sgcn
-shallow Graph Convolutional Networks for Skeleton-Based Action Recognition
+Shallow Graph Convolutional Networks for Skeleton-Based Action Recognition
 
 # Note
 
