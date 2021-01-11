@@ -3,7 +3,7 @@ Shallow Graph Convolutional Networks for Skeleton-Based Action Recognition
 
 # Note
 
-PyTorch version should be 0.3! For PyTorch0.4 or higher, the codes need to be modified. 
+PyTorch version should be 1.0.0 or higher. 
 
 # Data Preparation
 
